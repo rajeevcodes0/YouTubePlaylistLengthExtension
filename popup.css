@@ -1,0 +1,41 @@
+*{
+    padding:0px;
+    margin:0px;
+    box-sizing: border-box;
+}
+
+body{
+    height: 200px;
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding:10px;
+    background: rgb(251,63,63);
+background: radial-gradient(circle, rgba(251,63,63,1) 32%, rgba(255,52,93,1) 100%);
+
+}
+
+body::after{
+    content:"";
+    display: block;
+    height: 100px;
+    width: 100px;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    top:-20%;
+    right:-20%;
+    border-radius: 100%;
+}
+
+p{
+    font-size: 20px;
+    color:white;
+}
+
+a{
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 30px;
+    color:white;
+}
